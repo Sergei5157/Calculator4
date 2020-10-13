@@ -12,7 +12,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException, MyException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String[] s = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "*", "/", "-", "+", "I", "V", "X"};
         System.out.println("Input: ");
         String str = reader.readLine();                                                                      // Считываем условие
         Integer result = 0;
